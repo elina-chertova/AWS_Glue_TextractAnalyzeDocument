@@ -13,7 +13,7 @@
 
 2. Job details: 
     + Меняем в параметре Data processing units 1/16 DPU -> 1 DPU (иначе может появиться ошибка памяти)
-    + В пунке Job parameters добавляем Key: --additional-python-modules, Value: sagemaker,IPython.
+    + В пунке Job parameters добавляем `Key: --additional-python-modules, Value: sagemaker,IPython`.
 При необходимости так же через запятую добавить дополнительные бибилиотеки.
     + Добавляем роль.
 
