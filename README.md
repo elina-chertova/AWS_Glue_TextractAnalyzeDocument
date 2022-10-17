@@ -18,6 +18,7 @@
     + Добавляем роль.
 
 3. Создание IAM Role для Job'а.
+
 Переходим в сервис Identity and Access Management -> Roles -> Create role -> Custom trust policy -> ...
 В появившееся окно вставляем следующие настройки:
 ```json
