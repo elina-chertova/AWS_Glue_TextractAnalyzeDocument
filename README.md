@@ -12,7 +12,7 @@
 1. Создать job на основе Python Shell.
 
 2. Job details: 
-    + Меняем в параметре Data processing units 1/16 DPU -> 1 DPU (иначе может появиться ошибка памяти)
+    + Меняем в параметре Data processing units 1/16 DPU -> 1 DPU (иначе может появиться MemoryError)
     + В пунке Job parameters добавляем `Key: --additional-python-modules, Value: sagemaker,IPython`.
 При необходимости так же через запятую добавить дополнительные бибилиотеки.
     + Добавляем роль.
