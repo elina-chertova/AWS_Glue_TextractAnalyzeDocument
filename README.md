@@ -12,10 +12,10 @@
 1. Создать job на основе Python Shell.
 
 2. Job details: 
-    a. Меняем в параметре Data processing units 1/16 DPU -> 1 DPU (иначе может появиться ошибка памяти)
-    b. В пунке Job parameters добавляем Key: --additional-python-modules, Value: sagemaker,IPython.
+    + Меняем в параметре Data processing units 1/16 DPU -> 1 DPU (иначе может появиться ошибка памяти)
+    + В пунке Job parameters добавляем Key: --additional-python-modules, Value: sagemaker,IPython.
 При необходимости так же через запятую добавить дополнительные бибилиотеки.
-    c. Добавляем роль.
+    + Добавляем роль.
 
 3. Создание IAM Role для Job'а.
 Переходим в сервис Identity and Access Management -> Roles -> Create role -> Custom trust policy -> ...
