@@ -20,6 +20,7 @@ c. Добавляем роль.
 3. Создание IAM Role для Job'а.
 Переходим в сервис Identity and Access Management -> Roles -> Create role -> Custom trust policy -> ...
 В появившееся окно вставляем следующие настройки:
+```json
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -35,7 +36,7 @@ c. Добавляем роль.
         }
     ]
 }
-
+```
 ... -> Next -> Add permissions -> ...
 Добавляем следущие политики:
 ![photo_2022-10-18 00 13 57](https://user-images.githubusercontent.com/82960951/196284863-b24be9e9-0666-4b9e-8ba3-2fbf3b5d17dd.jpeg)
