@@ -1,4 +1,5 @@
-# example
+# examples
+
 template = r"""
 <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
 {% capture s3_arn %}http://s3.amazonaws.com/{{ task.input.aiServiceRequest.document.s3Object.bucket }}/{{ task.input.aiServiceRequest.document.s3Object.name }}{% endcapture %}
