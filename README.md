@@ -39,6 +39,8 @@ c. Добавляем роль.
 ```
 ... -> Next -> Add permissions -> ...
 Добавляем следущие политики:
-![photo_2022-10-18 00 13 57](https://user-images.githubusercontent.com/82960951/196284863-b24be9e9-0666-4b9e-8ba3-2fbf3b5d17dd.jpeg)
+<p align="center">
+  <img src="[https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true](https://user-images.githubusercontent.com/82960951/196284863-b24be9e9-0666-4b9e-8ba3-2fbf3b5d17dd.jpeg)" alt="Sublime's custom image"/>
+</p>
 
 ... -> Next -> Role name -> Create role.
