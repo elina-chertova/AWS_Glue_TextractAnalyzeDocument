@@ -40,6 +40,6 @@ c. Добавляем роль.
 ... -> Next -> Add permissions -> ...
 Добавляем следущие политики:
 
-<img src="/https://github.com/elina-chertova/AWS_Glue_TextractAnalyzeDocument/images/policy.jpeg" alt="Alt text" title="Optional title">
+<img src="images/policy.jpeg" alt="Alt text" title="Optional title">
 
 ... -> Next -> Role name -> Create role.
