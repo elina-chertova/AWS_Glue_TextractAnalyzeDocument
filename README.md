@@ -1,4 +1,4 @@
-# AWS Glue TextractAnalyzeDocument
+# Textract Analyze Document with AWS Glue 
 Запуск процесса обработки документов в AWS Glue с использованием встроенного сервиса ML Amazon Textract.
 
 ## Цель
